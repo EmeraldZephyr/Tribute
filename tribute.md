@@ -1,6 +1,5 @@
 <!DOCUTYPE html>
 <main id="main">
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <style>
 img{
     min-width: auto;
