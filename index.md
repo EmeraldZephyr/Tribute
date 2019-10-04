@@ -48,7 +48,7 @@ a:hover {
     </head>
     <header id="title"> Scott Tolinski </header>
     <div id="img-div" class="img-div">
-        <img
+        <img src=""
         alt="Scott Tolinski" id="image"><div id="img-caption">Scott Tolinski</div></div>
     
     <body id="tribute-info">ipsum about Scott</body>
