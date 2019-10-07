@@ -1,21 +1,29 @@
 # EmaraldZephyr.github.io
 <!DOCUTYPE html>
 <main id="main">
+    <div class="main_actual">
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <style>
-main{
-    background-color: black;
+
+
+.main_actual{
+    background-color: white;
+    background-image: url("https://github.com/EmeraldZephyr/Tribute/blob/master/images/bg.jpg?raw=true");
     color:rgb(207, 206, 105);
     width: 100vmax;
     height: 100vmax;
+    position: relative;
 }
 
 header{
     font-style: serif;
     text-align: center;
     font-size: 4.5em;
+    grid-area: head;
+    position: relative;
 }
-img{
+.scott{
     min-width: auto;
     max-width: 100%;
     margin-left: auto;
@@ -24,18 +32,32 @@ img{
     border-radius: 80%;
     display: block;
     box-shadow: 0px 0px 20px rgb(243, 239, 28);
+    z-index: 2;
+    grid-area: image;
+    position: relative;
 }
 #img-caption{
     position: relative;
     top: 5px;
+    grid-area: caption;
 }
 body{
     text-align: center;
+    grid-area: body;
+    position: relative;
+}
+#tagline{
+    display:block;
+    margin: 5% 30% 0 30%;
+    grid-area: tagline;
+    position: relative;
+
 }
 a {
    padding: 1%;
    text-decoration: none;
    color:rgb(207, 206, 105);
+   grid-area: link;
 }
 a:hover {
     padding: 1%;
@@ -43,18 +65,25 @@ a:hover {
     font-size: 105%;
 }
 </style>
+
+
     <head>
 <meta   author="Jared Mitasky"/>  
     </head>
     <header id="title"> Scott Tolinski </header>
     <div id="img-div" class="img-div">
-        <img src=""
-        alt="Scott Tolinski" id="image"><div id="img-caption">Scott Tolinski</div></div>
+        <img src="https://pbs.twimg.com/profile_images/1010171472097099777/k9ZT8lbq_400x400.jpg"
+        alt="Scott Tolinski" id="image" class="scott">
+        <div id="img-caption">What a guy!</div>
+    </div>
     
-    <body id="tribute-info">ipsum about Scott</body>
-    </br>
+    <body id="tribute-info">
+        <div id="tagline">What do you get when you take charisma, a passion for teaching, 
+        and web development expertise and spin it on its head?</div>
+    </body>
+    <br>
     <a id="tribute-link" target="_blank" href="https://www.scotttolinski.com/">
-    Scott's Page</a>
+    See It At Scott's Page</a>
 
-
+</div>
 </main>
